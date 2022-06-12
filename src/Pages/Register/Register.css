@@ -1,0 +1,23 @@
+.register {
+  display: flex;
+  justify-content: center;
+}
+.register__form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 350px;
+  gap: 15px;
+  margin-top: 12vh;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.register__username,
+.register__password {
+  width: 100%;
+}
+.register__button {
+  margin-top: 25px !important;
+}
